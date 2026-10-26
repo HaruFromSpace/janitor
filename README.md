@@ -2,7 +2,7 @@
 
 A quick and straightforward file organizer built using Python.
 
-If your downloads folder is a mess this script will check all the files sort them based on their file types make subfolders and automatically place everything in the right place.
+If your Downloads folder is a mess, janitor sorts every file into a subfolder by type (Images, Videos, Documents and so on). It only moves files in the top level of the folder and leaves existing subfolders alone. If a file with the same name is already there, the new one gets a number added instead of overwriting it.
 
 ## Usage
 
@@ -26,21 +26,21 @@ python janitor.py --dry-run
 
 ## File Types Supported
 
-**Images:** .jpg, .png, .gif and more.
+**Images:** .jpg, .png, .gif, .webp and others
 
-**Videos:** .mp4, .mkv, .mov and more.
+**Videos:** .mp4, .mkv, .mov, .webm and others
 
-**Audio:** .mp3, .wav, .flac. More.
+**Audio:** .mp3, .wav, .flac, .m4a
 
-**Documents:** .pdf, .docx, .txt, .csv and more.
+**Documents:** .pdf, .docx, .txt, .csv and others
 
-**Archives:** .zip, .rar, .7z and more.
+**Archives:** .zip, .rar, .7z, .tar, .gz
 
-**Executables:** .exe, .msi, .bat. More.
+**Executables:** .exe, .msi, .bat
 
-**Code:** .py, .js, .json, .css and more.
+**Code:** .py, .js, .html, .css, .json
 
-**Others:** Any files that do not fit into the categories.
+**Others:** anything that doesn't fit the groups above
 
 ## License
 
